@@ -17,6 +17,7 @@ TEMPLATES = [
     },
 ] 
 
-ALLOWED_HOSTS = ['3.86.85.228']  # Your EC2 public IP
+ALLOWED_HOSTS = ['3.86.85.228', 'localhost', '127.0.0.1']
+
 print("ALLOWED_HOSTS =", ALLOWED_HOSTS)
 
