@@ -18,4 +18,5 @@ TEMPLATES = [
 ] 
 
 ALLOWED_HOSTS = ['3.86.85.228']  # Your EC2 public IP
+print("ALLOWED_HOSTS =", ALLOWED_HOSTS)
 
