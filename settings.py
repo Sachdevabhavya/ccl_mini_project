@@ -17,4 +17,5 @@ TEMPLATES = [
     },
 ] 
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['3.86.85.228']  # Your EC2 public IP
+
