@@ -16,8 +16,8 @@ TEMPLATES = [
         },
     },
 ] 
-
-ALLOWED_HOSTS = ['*']
+DEBUG = False
+ALLOWED_HOSTS = ['3.84.254.226', 'localhost', '127.0.0.1']
 
 print("ALLOWED_HOSTS =", ALLOWED_HOSTS)
 
